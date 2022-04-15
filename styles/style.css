@@ -7,7 +7,7 @@
     font-family: Helvetica;
 }
 
-
+/* ----- HEADER ----- */
 
 header {
     background-color: #3161E0;
@@ -55,8 +55,6 @@ header {
     border-radius: 25px;
 }
 
-
-
 .main-header {
     flex-direction: column;
     align-items: center;
@@ -65,12 +63,12 @@ header {
     padding: 80px;
 }
 
-h1 {
+.main-header > h1 {
     color: #fff;
     padding: 10px;
 }
 
-p {
+ .main-header > p {
     color: #fff;;
     padding: 10px;
     font-size: 0.7rem;
@@ -96,5 +94,39 @@ p {
 
 .btn-black {
     background-color: #23272A;
+    color: #fff;
+}
+
+.header-content {
+    justify-content: ;
+
+}
+
+/* ----- MAIN ----- */
+
+.section {
+   align-items: center;
+   padding: 80px 0;
+}
+
+.col > img {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bg-gray {
+    background-color: #F6F6F6;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.btn-lilac {
+    background-color: #8EA1E1;
     color: #fff;
 }
