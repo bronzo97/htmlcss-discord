@@ -118,6 +118,11 @@ header {
     padding: 0 40px;
 }
 
+main h2,
+main p {
+    color: #1d2123;
+}
+
 main .col:last-child {
     margin-top: 30px;
 }
