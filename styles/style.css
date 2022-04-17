@@ -82,10 +82,15 @@ header {
     gap: 10px;
 }
 
+.fa-solid {
+    padding: 0 2px;
+}
+
 .btn {
     padding: 0.5rem;
     font-size: 0.6rem;
     border-radius: 25px;
+    display: inline-block;
 }
 
 .btn-white {
@@ -129,4 +134,99 @@ h2 {
 .btn-lilac {
     background-color: #8EA1E1;
     color: #fff;
+}
+
+.stars {
+    background-image: url("../img/stars.svg");
+    padding: 30px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.big {
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-top > .col {
+    padding: 0 30px;
+}
+
+.col > h4 {
+    color: #6F85D4;
+    font-size: 1.4rem;
+}
+
+.italiano {
+    flex-direction: row;
+    align-items: center;
+}
+
+.green {
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 12px;
+    max-height: 12px;
+    background-color: #008000;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.white {
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 12px;
+    max-height: 12px;
+    background-color: #fff;
+}
+
+.red {
+    min-width: 8px;
+    max-width: 8px;
+    min-height: 12px;
+    max-height: 12px;
+    background-color: #ff0000;
+    margin-right: 2px;
+    border-radius: 0 2px 2px 0;
+}
+
+.icons {
+    flex-direction: row;
+}
+
+.icons > div > i {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.col > h5 {
+    color: #6F85D4;
+    font-size: 0.8rem;
+}
+
+.footer-top > .col > div {
+    padding: 5px 0;
+} 
+
+.footer-top {
+    color: #fff;
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+}
+
+footer > .section {
+    background-color: #23272A;
+}
+
+.border {
+    border-top: 1px solid #6F85D4;
+}
+
+.footer-botton {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
 }
